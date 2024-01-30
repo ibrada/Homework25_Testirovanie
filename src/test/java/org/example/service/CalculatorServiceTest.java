@@ -9,7 +9,7 @@ public class CalculatorServiceTest {
     private final CalculatorService calculatorService = new CalculatorService();
 
     @Test
-    public void ResultOfPlus() {
+    public void resultOfPlus() {
         int a = 5;
         int b = 5;
         int expected = 10;
@@ -24,7 +24,7 @@ public class CalculatorServiceTest {
     }
 
     @Test
-    public void ResultOfMinus() {
+    public void resultOfMinus() {
         int a = 5;
         int b = 5;
         int expected = 0;
@@ -38,7 +38,7 @@ public class CalculatorServiceTest {
     }
 
     @Test
-    public void ResultOfMultiply() {
+    public void resultOfMultiply() {
         int a = 5;
         int b = 5;
         int expected = 25;
@@ -52,7 +52,7 @@ public class CalculatorServiceTest {
     }
 
     @Test
-    public void ResultOfDivide() {
+    public void resultOfDivide() {
         int a = 5;
         int b = 5;
         int expected = 1;
